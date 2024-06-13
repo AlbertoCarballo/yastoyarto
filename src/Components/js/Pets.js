@@ -139,7 +139,8 @@ function MyPetsCard({ pet }) {
                 <Card.Img variant="top" src="https://i.ibb.co/0C6Rp2Q/Captura-de-pantalla-2024-06-11-a-la-s-5-38-56-p-m.png" alt={pet.name} className='card-img'/>
                 <Card.Body className="d-flex flex-column justify-content-between">
                     <div>
-                        <Card.Title className="text-center">{pet.nombre_mascotas}</Card.Title>
+                        <Card.Title className="text-center"></Card.Title>
+                        <Card.Text>Nombre: {pet.nombre_mascotas}</Card.Text>
                         <Card.Text>Edad: {pet.edad}</Card.Text>
                         <Card.Text>{pet.tipo_mascota}</Card.Text>
                     </div>
