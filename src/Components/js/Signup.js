@@ -24,7 +24,7 @@ function Signup() {
   const [secondPassword, setSecondPassword] = useState("");
   const [pointer, setPointer] = useState(true);
 
-  const URL = 'http://localhost:4000/usuarios';
+  const URL = 'https://lucky-enchantment-production.up.railway.app/usuarios';
   useEffect(() => {
     if (password === secondPassword) {
       setPointer(false);
